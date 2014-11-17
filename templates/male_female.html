@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static "css/male_female.css" %}">
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+<script>
+var male_10, male_20, male_30, male_40;
+var female_10, female_20, female_30, female_40;
+
+function getDataFromURL() {
+    /* 더미 데이터 입력 */
+    male_10 = female_40 = 10;
+    male_20 = female_30 = 20;
+    male_30 = female_20 = 30;
+    male_40 = female_10 = 40;
+
+    draw();
+}
+function draw(data) {
+    var width = 1000;
+    var height = 800;
+
+    var svg  = d3.select("body")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height);
+    var pivot1 = [100, 0];
+    var pivot2 = [400, 0];
+    var men_barchart = svg.append("a")
+            .attr("class", "men_barchart")
+            .attr("transform", "translate("+pivot1[0]+","+pivot1[1]+")");
+    var women_barchart = svg.append("a")
+            .attr("class", "women_barchart")
+            .attr("transform", "translate("+pivot2[0]+","+pivot2[1]+")");
+    var scale = 5;
+    var barWidth = 30;
+    var h = 500;
+    // Draw bars
+
+    men_barchart.append("g")
+            .attr("class", "title")
+            .append("text")
+            .text("MALE")
+            .attr("class", "genderTitle")
+            .attr("transform", "translate(60,250)");
+    men_barchart.append("g")
+            .attr("class", "xaxis")
+            .append("line")
+            .attr("y1", h+2)
+            .attr("y2", h+2)
+            .attr("x1", 0)
+            .attr("x2", 220);
+
+    men_barchart.append("g")
+            .attr("class","male_10")
+            .append("rect")
+            .attr("class", "maleBar")
+            .attr("width", barWidth)
+            .attr("y", h-scale*male_10)
+            .attr("height", scale*male_10);
+    men_barchart.select("g.male_10")
+            .append("text")
+            .attr("class", "txtValue")
+            .attr("transform", "translate(0,530)")
+            .text("10대");
+    men_barchart.select("g.male_10")
+            .append("text")
+            .attr("class", "txtValue")
+            .attr("transform", "translate(7," + parseFloat(h-scale*male_10-10) + ")")
+            .text(male_10);
+
+    men_barchart.append("g")
+            .attr("class","male_20")
+            .append("rect")
+            .attr("class", "maleBar")
+            .attr("width", barWidth)
+            .attr("y", h-scale*male_20)
+            .attr("transform", "translate(" + barWidth*2 + ", 0)")
+            .attr("height", scale*male_20);
+    men_barchart.select("g.male_20")
+            .append("text")
+            .attr("class", "txtValue")
+            .attr("transform", "translate("+ barWidth*2 + ",530)")
+            .text("20대");
+    men_barchart.select("g.male_20")
+            .append("text")
+            .attr("class", "txtValue")
+            .attr("transform", "translate(" + parseFloat(barWidth*2+7) + ", " + parseFloat(h-scale*male_20-10) + ")")
+            .text(male_20);
+
+    men_barchart.append("g")
+            .attr("class","male_30")
+            .append("rect")
+            .attr("class", "maleBar")
+            .attr("width", barWidth)
+            .attr("y", h-scale*male_30)
+            .attr("transform", "translate(" + barWidth*4 + ", 0)")
+            .attr("height", scale*male_30);
+    men_barchart.select("g.male_30")
+            .append("text")
+            .attr("class", "txtValue")
+            .attr("transform", "translate("+ barWidth*4 + ",530)")
+            .text("30대");
+    men_barchart.select("g.male_30")
+            .append("text")
+            .attr("class", "txtValue")
+            .attr("transform", "translate(" + parseFloat(barWidth*4+7) + ", " + parseFloat(h-scale*male_30-10) + ")")
+            .text(male_30);
+
+    men_barchart.append("g")
+            .attr("class","male_40")
+            .append("rect")
+            .attr("class", "maleBar")
+            .attr("width", barWidth)
+            .attr("y", h-scale*male_40)
+            .attr("transform", "translate(" + barWidth*6 + ", 0)")
+            .attr("height", scale*male_40);
+    men_barchart.select("g.male_40")
+            .append("text")
+            .attr("class", "txtValue")
+            .attr("transform", "translate("+ barWidth*6 + ",530)")
+            .text("40대이상");
+    men_barchart.select("g.male_40")
+            .append("text")
+            .attr("class", "txtValue")
+            .attr("transform", "translate(" + parseFloat(barWidth*6+7) + ", " + parseFloat(h-scale*male_40-10) + ")")
+            .text(male_40);
+
+
+    svg.append("g")
+            .append("line")
+            .attr("class", "divideLine")
+            .attr("x1", 360)
+            .attr("x2", 360)
+            .attr("y1", 250)
+            .attr("y2", 500);
+
+
+    women_barchart.append("g")
+            .attr("class", "title")
+            .append("text")
+            .text("FEMALE")
+            .attr("class", "genderTitle")
+            .attr("transform", "translate(60,250)");
+    women_barchart.append("g")
+            .attr("class", "xaxis")
+            .append("line")
+            .attr("y1", h+2)
+            .attr("y2", h+2)
+            .attr("x1", 0)
+            .attr("x2", 220);
+
+    women_barchart.append("g")
+            .attr("class","female_10")
+            .append("rect")
+            .attr("class", "femaleBar")
+            .attr("width", barWidth)
+            .attr("y", h-scale*female_10)
+            .attr("height", scale*female_10);
+    women_barchart.select("g.female_10")
+            .append("text")
+            .attr("class", "txtValue")
+            .attr("transform", "translate(0,530)")
+            .text("10대");
+    women_barchart.select("g.female_10")
+            .append("text")
+            .attr("class", "txtValue")
+            .attr("transform", "translate(7," + parseFloat(h-scale*female_10-10) + ")")
+            .text(female_10);
+
+    women_barchart.append("g")
+            .attr("class","female_20")
+            .append("rect")
+            .attr("class", "femaleBar")
+            .attr("width", barWidth)
+            .attr("y", h-scale*female_20)
+            .attr("transform", "translate(" + barWidth*2 + ", 0)")
+            .attr("height", scale*female_20);
+    women_barchart.select("g.female_20")
+            .append("text")
+            .attr("class", "txtValue")
+            .attr("transform", "translate("+ barWidth*2 + ",530)")
+            .text("20대");
+    women_barchart.select("g.female_20")
+            .append("text")
+            .attr("class", "txtValue")
+            .attr("transform", "translate(" + parseFloat(barWidth*2+7) + ", " + parseFloat(h-scale*female_20-10) + ")")
+            .text(female_20);
+
+    women_barchart.append("g")
+            .attr("class","female_30")
+            .append("rect")
+            .attr("class", "femaleBar")
+            .attr("width", barWidth)
+            .attr("y", h-scale*female_30)
+            .attr("transform", "translate(" + barWidth*4 + ", 0)")
+            .attr("height", scale*female_30);
+    women_barchart.select("g.female_30")
+            .append("text")
+            .attr("class", "txtValue")
+            .attr("transform", "translate("+ barWidth*4 + ",530)")
+            .text("30대");
+    women_barchart.select("g.female_30")
+            .append("text")
+            .attr("class", "txtValue")
+            .attr("transform", "translate(" + parseFloat(barWidth*4+7) + ", " + parseFloat(h-scale*female_30-10) + ")")
+            .text(female_30);
+
+
+    women_barchart.append("g")
+            .attr("class","female_40")
+            .append("rect")
+            .attr("class", "femaleBar")
+            .attr("width", barWidth)
+            .attr("y", h-scale*female_40)
+            .attr("transform", "translate(" + barWidth*6 + ", 0)")
+            .attr("height", scale*female_40);
+    women_barchart.select("g.female_40")
+            .append("text")
+            .attr("class", "txtValue")
+            .attr("transform", "translate("+ barWidth*6 + ",530)")
+            .text("40대이상");
+    women_barchart.select("g.female_40")
+            .append("text")
+            .attr("class", "txtValue")
+            .attr("transform", "translate(" + parseFloat(barWidth*6+7) + ", " + parseFloat(h-scale*female_40-10) + ")")
+            .text(female_40);
+
+}
+</script>
+</head>
+<body>
+<script>
+    getDataFromURL()
+</script>
+</body>
+</html>

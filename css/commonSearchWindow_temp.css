@@ -1,0 +1,99 @@
+body {
+    font-family:sans-serif;
+}
+
+#topButton {
+    float:left;
+    height:35px;
+    color:white;
+    border: 0;
+    background-color:gray;
+    font-size:12pt;
+}
+
+.title {
+    text-align:center;
+    color:gray;
+    font-size:10pt;
+}
+
+b {
+    font-size:12pt;
+    color:black;
+}
+
+.button {
+    position:relative;
+    height:30px;
+    border:1px solid black;
+    background-color:white;
+    color:black;
+    font-size:10pt;
+}
+
+#inputBox {
+    border:1px solid black;
+    height:30px;
+}
+
+.window {
+    position:relative;
+    margin-top:5px;
+    text-align:center;
+    border:2px solid red;
+    width:200px;
+    height:30px;
+    font-size:13pt;
+}
+
+#top {
+    padding-top:5px;
+    border:0px solid gray;
+    height:40px;
+    width:100%;
+}
+
+#itemResult {
+    overflow-y:scroll;
+
+    position:relative;
+    float:left;
+    border:1px solid gray;
+    margin-left:-15%;
+    margin-top:5%;
+    width:62%;
+    background-color:gray;
+}
+
+#D3Result {
+    position:relative;
+    float:right;
+    border:1px solid gray;
+    margin-top:5%;
+    margin-right:10%;
+    width:20%;
+}
+
+.eachItem {
+    font-size:11pt;
+    background-color:white;
+    margin-bottom:2px;
+    height:100px;
+}
+
+a {
+    /* delete underline */
+    text-decoration:none;
+    color:black;
+}
+
+a:hover {
+    color:red;
+}
+
+#footer {
+    width:100%;
+    float:right;
+    height:50px;
+    /* background-color:silver; */
+}

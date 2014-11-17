@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <title>사용자 추측모드</title>
+    <head>
+        <meta charset="utf-8">
+        {% load staticfiles %}
+        <link rel="stylesheet" type="text/css" href="{% static "css/commonSearchWindow.css" %}">
+        <link rel="stylesheet" type="text/css" href="{% static "css/d3.css" %}">
+	<link rel="stylesheet" type="text/css" href="{% static "css/header.css" %}">
+
+        <script src="{% static "js/d3.js" %}" charset="utf-8"></script>
+        <script src="{% static "js/d3_draw.js" %}" charset="utf-8"></script>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+    </head>
+    <body>
+    <div id="contentBody">
+<p>hello</p>    
+    <div id="top">
+            <button class="button" id="topButton" onClick="window.open('/','_self')">뒤로가기</button>
+            <div class="title">
+                <b>사용자추정모드</b><br>
+                검색 쿼리를 이용하여 불특정 이용자의 성별, 연령대, 추천검색어를 추정합니다.<br>
+                <!-- {{ state }} -->
+                <hr>
+            </div>
+            <form action="." method="get">
+                <input class="window" type="text" name="content" placeholder="상품을 검색해보세요!" style="left:45%;float:left;"/>
+                <input type="hidden" name="current" value="1"/>
+                <input type="hidden" name="searchBox" value="none"/>
+                <input class="button" type="submit" value="검색" style="left:45%;float:left;margin-top:5px;"/>
+            </form>
+            검색어: {{ content }}<br>
+            {% if content %}
+            <form action="." method="get" style="float:left;">
+                <input type="hidden" name="searchBox" value="prev"/>
+                <input type="hidden" name="content" value="{{ content }}"/>
+                <input type="hidden" name="current" value="{{ current }}"/>
+                <input class="button" type="submit" value="<이전" />
+            </form>
+            <form action="." method="get" style="float:left;">
+                <input type="hidden" name="searchBox" value="next"/>
+                <input type="hidden" name="content" value="{{ content }}"/>
+                <input type="hidden" name="current" value="{{ current }}"/>
+                <input class="button" type="submit" value="다음>" />
+            </form>
+            {% endif %}
+        </div>
+        <div id="itemResult">
+            {% for item in result %}
+            <a href="{{ item.site_url }}" target="_blank">
+                <div class="eachItem">
+                    <!-- item description -->
+                    <div style="float:left;width:700px;">
+                        <img src="{{ item.img }}" style="width:100px;float:left;" />
+                        {{ item.name_simple }}
+                    </div>
+                    <!-- price info and seller -->
+                    <div style="float:right;margin-right:10px;border-left:1px dotteed gray;height:100%;width:120px;">
+                        <div style="font-size:12pt;color:black;text-align:right;">
+                            판매처: {{ item.genre2 }} <br><br>
+                            {% if item.original_price %}
+                            <div style="font-size:10pt;color:gray;">
+                                <strike>{{ item.original_price }}</strike>원<br>
+                            </div>
+                            {% else %}
+                            {% endif %}
+                            <div style="color:red;font-size:13.5pt;">
+                                {{ item.price }}원
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+        <div id="D3Result">
+            D3 결과표<br>
+            {% if user.username %}
+            <input type="hidden" id="myVar" name="variable" value="{{ user.username }}">
+            {% else %}
+            <input type="hidden" id="myVar" name="variable" value="{{ user_ip }}">
+            {% endif %}
+            <script>
+                getDataFromURL()
+            </script>
+        </div>
+    </div>
+    </body>
+</html>

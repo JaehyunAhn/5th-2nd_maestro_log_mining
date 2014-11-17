@@ -1,0 +1,379 @@
+Requirement already satisfied (use --upgrade to upgrade): django in /usr/local/lib/python2.7/dist-packages
+Downloading/unpacking psycopg2
+  Getting page https://pypi.python.org/simple/psycopg2/
+  URLs to search for versions for psycopg2:
+  * https://pypi.python.org/simple/psycopg2/
+  Analyzing links from page https://pypi.python.org/simple/psycopg2/
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.0.10.tar.gz#md5=2dc60d0fd90ad681e1e9106edef34e97 (from https://pypi.python.org/simple/psycopg2/), version: 2.0.10
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.0.11.tar.gz#md5=eec2a45bcea75a00cbf20a15ab1b8bae (from https://pypi.python.org/simple/psycopg2/), version: 2.0.11
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.0.12.tar.gz#md5=5c8080d0d0568479f041bb8534caf1f8 (from https://pypi.python.org/simple/psycopg2/), version: 2.0.12
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.0.13.tar.gz#md5=f520260595f4fcf035d26cfd57a75f19 (from https://pypi.python.org/simple/psycopg2/), version: 2.0.13
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.0.14.tar.gz#md5=30136c7753acc9cbdc36cc5c2448fdee (from https://pypi.python.org/simple/psycopg2/), version: 2.0.14
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.2.0.tar.gz#md5=4a69436dc8efbfe2859ae3aeed85d03e (from https://pypi.python.org/simple/psycopg2/), version: 2.2.0
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.2.1.tar.gz#md5=70b50773aefe5fb371ff4a018382012f (from https://pypi.python.org/simple/psycopg2/), version: 2.2.1
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.2.2.tar.gz#md5=571af2ad9dfeb522ee5f8553278a4c38 (from https://pypi.python.org/simple/psycopg2/), version: 2.2.2
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.3.0.tar.gz#md5=0b52101b47f1e73001c6412d9a476222 (from https://pypi.python.org/simple/psycopg2/), version: 2.3.0
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.3.1.tar.gz#md5=15d1c7f821f3a0306955d6cde3e762af (from https://pypi.python.org/simple/psycopg2/), version: 2.3.1
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.3.2.tar.gz#md5=11e8021a4fda49faa15495f8bea65f4d (from https://pypi.python.org/simple/psycopg2/), version: 2.3.2
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.1.tar.gz#md5=4e79c822ab75dd89d931ee627c66032f (from https://pypi.python.org/simple/psycopg2/), version: 2.4.1
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.2.tar.gz#md5=58cfd294d28b7e8ef059d72085d71ac2 (from https://pypi.python.org/simple/psycopg2/), version: 2.4.2
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.3.tar.gz#md5=5f67ca0c8b6c1ac5c4afd82811e0facc (from https://pypi.python.org/simple/psycopg2/), version: 2.4.3
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.4.tar.gz#md5=639e014ea9ce3aa3306724f12d16d79b (from https://pypi.python.org/simple/psycopg2/), version: 2.4.4
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.5.tar.gz#md5=075e4df465e9a863f288d5bdf6e6887e (from https://pypi.python.org/simple/psycopg2/), version: 2.4.5
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.6.tar.gz#md5=79d7f05e67bf70a0ecc6e9103ccece5f (from https://pypi.python.org/simple/psycopg2/), version: 2.4.6
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.4.tar.gz#md5=24f4368e2cfdc1a2b03282ddda814160 (from https://pypi.python.org/simple/psycopg2/), version: 2.4
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.5.1.tar.gz#md5=1b433f83d50d1bc61e09026e906d84c7 (from https://pypi.python.org/simple/psycopg2/), version: 2.5.1
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.5.2.tar.gz#md5=53d81793fbab8fee6e732a0425d50047 (from https://pypi.python.org/simple/psycopg2/), version: 2.5.2
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.5.3.tar.gz#md5=09dcec70f623a9ef774f1aef75690995 (from https://pypi.python.org/simple/psycopg2/), version: 2.5.3
+    Found link https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.5.tar.gz#md5=facd82faa067e99b80146a0ee2f842f6 (from https://pypi.python.org/simple/psycopg2/), version: 2.5
+    Skipping link http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/); not a file
+    Skipping link http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/); not a file
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.10.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.11.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.12.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.13.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.14.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.3.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.4.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.5.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.6.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.7.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.8.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-2/psycopg2-2.2.0.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-2/psycopg2-2.2.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-2/psycopg2-2.2.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-3/psycopg2-2.3.0.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-3/psycopg2-2.3.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-3/psycopg2-2.3.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.3.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.4.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.5.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.6.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-5/psycopg2-2.5.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-5/psycopg2-2.5.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-5/psycopg2-2.5.3.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+    Skipping http://initd.org/psycopg/tarballs/PSYCOPG-2-5/psycopg2-2.5.tar.gz (from https://pypi.python.org/simple/psycopg2/) because it is externally hosted.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/projects/psycopg2 (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/ (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.10.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.11.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.12.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.13.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.14.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.3.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.4.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.5.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.6.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.7.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.8.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-2/psycopg2-2.2.0.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-2/psycopg2-2.2.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-2/psycopg2-2.2.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-3/psycopg2-2.3.0.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-3/psycopg2-2.3.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-3/psycopg2-2.3.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.3.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.4.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.5.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.6.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-5/psycopg2-2.5.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-5/psycopg2-2.5.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-5/psycopg2-2.5.3.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Not searching http://initd.org/psycopg/tarballs/PSYCOPG-2-5/psycopg2-2.5.tar.gz (from https://pypi.python.org/simple/psycopg2/) for files because external urls are disallowed.
+  Using version 2.5.3 (newest of versions: 2.5.3, 2.5.2, 2.5.1, 2.5, 2.4.6, 2.4.5, 2.4.4, 2.4.3, 2.4.2, 2.4.1, 2.4, 2.3.2, 2.3.1, 2.3.0, 2.2.2, 2.2.1, 2.2.0, 2.0.14, 2.0.13, 2.0.12, 2.0.11, 2.0.10)
+  Downloading from URL https://pypi.python.org/packages/source/p/psycopg2/psycopg2-2.5.3.tar.gz#md5=09dcec70f623a9ef774f1aef75690995 (from https://pypi.python.org/simple/psycopg2/)
+  Running setup.py (path:/tmp/pip_build_sogo/psycopg2/setup.py) egg_info for package psycopg2
+    running egg_info
+    creating pip-egg-info/psycopg2.egg-info
+    writing pip-egg-info/psycopg2.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/psycopg2.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/psycopg2.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/psycopg2.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/psycopg2.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/psycopg2.egg-info/SOURCES.txt'
+  Source in /tmp/pip_build_sogo/psycopg2 has version 2.5.3, which satisfies requirement psycopg2
+Requirement already satisfied (use --upgrade to upgrade): uwsgi in /usr/local/lib/python2.7/dist-packages
+Installing collected packages: psycopg2
+  Running setup.py install for psycopg2
+    Running command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_sogo/psycopg2/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-1p99pa-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-x86_64-2.7
+    creating build/lib.linux-x86_64-2.7/psycopg2
+    copying lib/tz.py -> build/lib.linux-x86_64-2.7/psycopg2
+    copying lib/_json.py -> build/lib.linux-x86_64-2.7/psycopg2
+    copying lib/errorcodes.py -> build/lib.linux-x86_64-2.7/psycopg2
+    copying lib/extensions.py -> build/lib.linux-x86_64-2.7/psycopg2
+    copying lib/pool.py -> build/lib.linux-x86_64-2.7/psycopg2
+    copying lib/_range.py -> build/lib.linux-x86_64-2.7/psycopg2
+    copying lib/extras.py -> build/lib.linux-x86_64-2.7/psycopg2
+    copying lib/__init__.py -> build/lib.linux-x86_64-2.7/psycopg2
+    copying lib/psycopg1.py -> build/lib.linux-x86_64-2.7/psycopg2
+    creating build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_types_extras.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_transaction.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_copy.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_dates.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_notify.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/dbapi20.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_extras_dictcursor.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_types_basic.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/testutils.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/dbapi20_tpc.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_green.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_bugX000.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_module.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_async.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_connection.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/testconfig.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_with.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_quote.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_cursor.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_psycopg2_dbapi20.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/__init__.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_lobject.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_bug_gc.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_cancel.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    running build_ext
+    building 'psycopg2._psycopg' extension
+    creating build/temp.linux-x86_64-2.7
+    creating build/temp.linux-x86_64-2.7/psycopg
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/psycopgmodule.c -o build/temp.linux-x86_64-2.7/psycopg/psycopgmodule.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/green.c -o build/temp.linux-x86_64-2.7/psycopg/green.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/pqpath.c -o build/temp.linux-x86_64-2.7/psycopg/pqpath.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/utils.c -o build/temp.linux-x86_64-2.7/psycopg/utils.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/bytes_format.c -o build/temp.linux-x86_64-2.7/psycopg/bytes_format.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/connection_int.c -o build/temp.linux-x86_64-2.7/psycopg/connection_int.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/connection_type.c -o build/temp.linux-x86_64-2.7/psycopg/connection_type.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/cursor_int.c -o build/temp.linux-x86_64-2.7/psycopg/cursor_int.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/cursor_type.c -o build/temp.linux-x86_64-2.7/psycopg/cursor_type.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/diagnostics_type.c -o build/temp.linux-x86_64-2.7/psycopg/diagnostics_type.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/error_type.c -o build/temp.linux-x86_64-2.7/psycopg/error_type.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/lobject_int.c -o build/temp.linux-x86_64-2.7/psycopg/lobject_int.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/lobject_type.c -o build/temp.linux-x86_64-2.7/psycopg/lobject_type.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/notify_type.c -o build/temp.linux-x86_64-2.7/psycopg/notify_type.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/xid_type.c -o build/temp.linux-x86_64-2.7/psycopg/xid_type.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/adapter_asis.c -o build/temp.linux-x86_64-2.7/psycopg/adapter_asis.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/adapter_binary.c -o build/temp.linux-x86_64-2.7/psycopg/adapter_binary.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/adapter_datetime.c -o build/temp.linux-x86_64-2.7/psycopg/adapter_datetime.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/adapter_list.c -o build/temp.linux-x86_64-2.7/psycopg/adapter_list.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/adapter_pboolean.c -o build/temp.linux-x86_64-2.7/psycopg/adapter_pboolean.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/adapter_pdecimal.c -o build/temp.linux-x86_64-2.7/psycopg/adapter_pdecimal.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/adapter_pint.c -o build/temp.linux-x86_64-2.7/psycopg/adapter_pint.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/adapter_pfloat.c -o build/temp.linux-x86_64-2.7/psycopg/adapter_pfloat.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/adapter_qstring.c -o build/temp.linux-x86_64-2.7/psycopg/adapter_qstring.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/microprotocols.c -o build/temp.linux-x86_64-2.7/psycopg/microprotocols.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/microprotocols_proto.c -o build/temp.linux-x86_64-2.7/psycopg/microprotocols_proto.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/typecast.c -o build/temp.linux-x86_64-2.7/psycopg/typecast.o -Wdeclaration-after-statement
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/psycopg/psycopgmodule.o build/temp.linux-x86_64-2.7/psycopg/green.o build/temp.linux-x86_64-2.7/psycopg/pqpath.o build/temp.linux-x86_64-2.7/psycopg/utils.o build/temp.linux-x86_64-2.7/psycopg/bytes_format.o build/temp.linux-x86_64-2.7/psycopg/connection_int.o build/temp.linux-x86_64-2.7/psycopg/connection_type.o build/temp.linux-x86_64-2.7/psycopg/cursor_int.o build/temp.linux-x86_64-2.7/psycopg/cursor_type.o build/temp.linux-x86_64-2.7/psycopg/diagnostics_type.o build/temp.linux-x86_64-2.7/psycopg/error_type.o build/temp.linux-x86_64-2.7/psycopg/lobject_int.o build/temp.linux-x86_64-2.7/psycopg/lobject_type.o build/temp.linux-x86_64-2.7/psycopg/notify_type.o build/temp.linux-x86_64-2.7/psycopg/xid_type.o build/temp.linux-x86_64-2.7/psycopg/adapter_asis.o build/temp.linux-x86_64-2.7/psycopg/adapter_binary.o build/temp.linux-x86_64-2.7/psycopg/adapter_datetime.o build/temp.linux-x86_64-2.7/psycopg/adapter_list.o build/temp.linux-x86_64-2.7/psycopg/adapter_pboolean.o build/temp.linux-x86_64-2.7/psycopg/adapter_pdecimal.o build/temp.linux-x86_64-2.7/psycopg/adapter_pint.o build/temp.linux-x86_64-2.7/psycopg/adapter_pfloat.o build/temp.linux-x86_64-2.7/psycopg/adapter_qstring.o build/temp.linux-x86_64-2.7/psycopg/microprotocols.o build/temp.linux-x86_64-2.7/psycopg/microprotocols_proto.o build/temp.linux-x86_64-2.7/psycopg/typecast.o -lpq -o build/lib.linux-x86_64-2.7/psycopg2/_psycopg.so
+    running install_lib
+    creating /usr/local/lib/python2.7/dist-packages/psycopg2
+    error: could not create '/usr/local/lib/python2.7/dist-packages/psycopg2': Permission denied
+    Complete output from command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_sogo/psycopg2/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-1p99pa-record/install-record.txt --single-version-externally-managed --compile:
+    running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib.linux-x86_64-2.7
+
+creating build/lib.linux-x86_64-2.7/psycopg2
+
+copying lib/tz.py -> build/lib.linux-x86_64-2.7/psycopg2
+
+copying lib/_json.py -> build/lib.linux-x86_64-2.7/psycopg2
+
+copying lib/errorcodes.py -> build/lib.linux-x86_64-2.7/psycopg2
+
+copying lib/extensions.py -> build/lib.linux-x86_64-2.7/psycopg2
+
+copying lib/pool.py -> build/lib.linux-x86_64-2.7/psycopg2
+
+copying lib/_range.py -> build/lib.linux-x86_64-2.7/psycopg2
+
+copying lib/extras.py -> build/lib.linux-x86_64-2.7/psycopg2
+
+copying lib/__init__.py -> build/lib.linux-x86_64-2.7/psycopg2
+
+copying lib/psycopg1.py -> build/lib.linux-x86_64-2.7/psycopg2
+
+creating build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_types_extras.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_transaction.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_copy.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_dates.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_notify.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/dbapi20.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_extras_dictcursor.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_types_basic.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/testutils.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/dbapi20_tpc.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_green.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_bugX000.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_module.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_async.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_connection.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/testconfig.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_with.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_quote.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_cursor.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_psycopg2_dbapi20.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/__init__.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_lobject.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_bug_gc.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_cancel.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+running build_ext
+
+building 'psycopg2._psycopg' extension
+
+creating build/temp.linux-x86_64-2.7
+
+creating build/temp.linux-x86_64-2.7/psycopg
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/psycopgmodule.c -o build/temp.linux-x86_64-2.7/psycopg/psycopgmodule.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/green.c -o build/temp.linux-x86_64-2.7/psycopg/green.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/pqpath.c -o build/temp.linux-x86_64-2.7/psycopg/pqpath.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/utils.c -o build/temp.linux-x86_64-2.7/psycopg/utils.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/bytes_format.c -o build/temp.linux-x86_64-2.7/psycopg/bytes_format.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/connection_int.c -o build/temp.linux-x86_64-2.7/psycopg/connection_int.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/connection_type.c -o build/temp.linux-x86_64-2.7/psycopg/connection_type.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/cursor_int.c -o build/temp.linux-x86_64-2.7/psycopg/cursor_int.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/cursor_type.c -o build/temp.linux-x86_64-2.7/psycopg/cursor_type.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/diagnostics_type.c -o build/temp.linux-x86_64-2.7/psycopg/diagnostics_type.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/error_type.c -o build/temp.linux-x86_64-2.7/psycopg/error_type.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/lobject_int.c -o build/temp.linux-x86_64-2.7/psycopg/lobject_int.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/lobject_type.c -o build/temp.linux-x86_64-2.7/psycopg/lobject_type.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/notify_type.c -o build/temp.linux-x86_64-2.7/psycopg/notify_type.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/xid_type.c -o build/temp.linux-x86_64-2.7/psycopg/xid_type.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/adapter_asis.c -o build/temp.linux-x86_64-2.7/psycopg/adapter_asis.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/adapter_binary.c -o build/temp.linux-x86_64-2.7/psycopg/adapter_binary.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/adapter_datetime.c -o build/temp.linux-x86_64-2.7/psycopg/adapter_datetime.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/adapter_list.c -o build/temp.linux-x86_64-2.7/psycopg/adapter_list.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/adapter_pboolean.c -o build/temp.linux-x86_64-2.7/psycopg/adapter_pboolean.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/adapter_pdecimal.c -o build/temp.linux-x86_64-2.7/psycopg/adapter_pdecimal.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/adapter_pint.c -o build/temp.linux-x86_64-2.7/psycopg/adapter_pint.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/adapter_pfloat.c -o build/temp.linux-x86_64-2.7/psycopg/adapter_pfloat.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/adapter_qstring.c -o build/temp.linux-x86_64-2.7/psycopg/adapter_qstring.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/microprotocols.c -o build/temp.linux-x86_64-2.7/psycopg/microprotocols.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/microprotocols_proto.c -o build/temp.linux-x86_64-2.7/psycopg/microprotocols_proto.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.5.3 (dt dec pq3 ext)" -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -DPG_VERSION_HEX=0x090305 -DPSYCOPG_EXTENSIONS=1 -DPSYCOPG_NEW_BOOLEAN=1 -DHAVE_PQFREEMEM=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/typecast.c -o build/temp.linux-x86_64-2.7/psycopg/typecast.o -Wdeclaration-after-statement
+
+x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/psycopg/psycopgmodule.o build/temp.linux-x86_64-2.7/psycopg/green.o build/temp.linux-x86_64-2.7/psycopg/pqpath.o build/temp.linux-x86_64-2.7/psycopg/utils.o build/temp.linux-x86_64-2.7/psycopg/bytes_format.o build/temp.linux-x86_64-2.7/psycopg/connection_int.o build/temp.linux-x86_64-2.7/psycopg/connection_type.o build/temp.linux-x86_64-2.7/psycopg/cursor_int.o build/temp.linux-x86_64-2.7/psycopg/cursor_type.o build/temp.linux-x86_64-2.7/psycopg/diagnostics_type.o build/temp.linux-x86_64-2.7/psycopg/error_type.o build/temp.linux-x86_64-2.7/psycopg/lobject_int.o build/temp.linux-x86_64-2.7/psycopg/lobject_type.o build/temp.linux-x86_64-2.7/psycopg/notify_type.o build/temp.linux-x86_64-2.7/psycopg/xid_type.o build/temp.linux-x86_64-2.7/psycopg/adapter_asis.o build/temp.linux-x86_64-2.7/psycopg/adapter_binary.o build/temp.linux-x86_64-2.7/psycopg/adapter_datetime.o build/temp.linux-x86_64-2.7/psycopg/adapter_list.o build/temp.linux-x86_64-2.7/psycopg/adapter_pboolean.o build/temp.linux-x86_64-2.7/psycopg/adapter_pdecimal.o build/temp.linux-x86_64-2.7/psycopg/adapter_pint.o build/temp.linux-x86_64-2.7/psycopg/adapter_pfloat.o build/temp.linux-x86_64-2.7/psycopg/adapter_qstring.o build/temp.linux-x86_64-2.7/psycopg/microprotocols.o build/temp.linux-x86_64-2.7/psycopg/microprotocols_proto.o build/temp.linux-x86_64-2.7/psycopg/typecast.o -lpq -o build/lib.linux-x86_64-2.7/psycopg2/_psycopg.so
+
+running install_lib
+
+creating /usr/local/lib/python2.7/dist-packages/psycopg2
+
+error: could not create '/usr/local/lib/python2.7/dist-packages/psycopg2': Permission denied
+
+----------------------------------------
+Cleaning up...
+  Removing temporary dir /tmp/pip_build_sogo...
+Command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_sogo/psycopg2/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-1p99pa-record/install-record.txt --single-version-externally-managed --compile failed with error code 1 in /tmp/pip_build_sogo/psycopg2
+Exception information:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pip/basecommand.py", line 122, in main
+    status = self.run(options, args)
+  File "/usr/local/lib/python2.7/dist-packages/pip/commands/install.py", line 283, in run
+    requirement_set.install(install_options, global_options, root=options.root_path)
+  File "/usr/local/lib/python2.7/dist-packages/pip/req.py", line 1435, in install
+    requirement.install(install_options, global_options, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/pip/req.py", line 706, in install
+    cwd=self.source_dir, filter_stdout=self._filter_install, show_stdout=False)
+  File "/usr/local/lib/python2.7/dist-packages/pip/util.py", line 697, in call_subprocess
+    % (command_desc, proc.returncode, cwd))
+InstallationError: Command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_sogo/psycopg2/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-1p99pa-record/install-record.txt --single-version-externally-managed --compile failed with error code 1 in /tmp/pip_build_sogo/psycopg2

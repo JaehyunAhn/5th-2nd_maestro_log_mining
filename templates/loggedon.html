@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+{% extends "header.html" %}
+{% block content %}
+<div id="contentBody">
+    <div id="top">
+        <!-- {{ state }} -->
+        검색어: {{ content }}
+        {% if content %}
+        <!--
+        <form action="." method="get">
+            <input type="hidden" name="searchBox" value="next"/>
+            <input type="hidden" name="content" value="{{ content }}"/>
+            <input type="hidden" name="current" value="{{ current }}"/>
+            <input class="button" type="submit" value="다음>" />
+        </form>
+        <form action="." method="get">
+            <input type="hidden" name="searchBox" value="prev"/>
+            <input type="hidden" name="content" value="{{ content }}"/>
+            <input type="hidden" name="current" value="{{ current }}"/>
+            <input class="button" type="submit" value="<이전" />
+        </form>
+        -->
+        {% endif %}
+    </div>
+    <div id="itemResult">
+        <br>
+        {% if not result %}
+        검색 결과가 존재하지 않습니다
+        {% else %}
+        <table>
+            <tr>
+                <td>
+                    이미지
+                </td>
+                <td>
+                    상품명
+                </td>
+                <td>
+                    실제 카테고리
+                </td>
+                <td>
+                    추정 카테고리
+                </td>
+                <td>
+                    가격
+                </td>
+            </tr>
+            {% for item in result %}
+            <tr>
+                <td>
+                    <img src="{{ item.img }}" style="width:100px;float:left;" />
+                </td>
+                <td>
+                    <a href="{{ item.site_url }}" target="_blank">
+                        {{ item.item_name }}
+                    </a>
+                </td>
+                <td width="100px">
+                    {{ item.cate1 }}<br>
+                    {{ item.cate2 }}<br>
+                    {{ item.cate3 }}
+                </td>
+                <td width="100px">
+                    {% if item.cate1 == item.ncate1 %}
+                    <div style='color:#159E53'>{{ item.ncate1 }}</div>
+                    {% else %}
+                    <div style='color:#FF5A51'>{{ item.ncate1 }}</div>
+                    {% endif %}
+                    {% if item.cate2 == item.ncate2 %}
+                    <div style='color:#159E53'>{{ item.ncate2 }}</div>
+                    {% else %}
+                    <div style='color:#FF5A51'>{{ item.ncate2 }}</div>
+                    {% endif %}
+                    {% if item.cate3 == item.ncate3 %}
+                    <div style='color:#159E53'>{{ item.ncate3 }}</div>
+                    {% else %}
+                    <div style='color:#FF5A51'>{{ item.ncate3 }}</div>
+                    {% endif %}
+                </td>
+                <td width="120px">
+                    <!-- for naver -->
+                    {% if not item.price_high %}
+                    {{ item.price_row }}
+                    {% else %}
+                    {{ item.price_row }} ~ {{ item.price_high }}원
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+        {% endif %}
+    </div>
+    <div id="D3Result">
+        <!--
+        <ul class="tabs">
+            <li class="active" rel="tab1">사용자 분석</li>
+            <li rel="tab2">검색어 분석</li>
+        </ul>
+        <div class='tab_container'>
+            <div id='tab1' class='tab_content'>
+                {% if user.username %}
+                <input type="hidden" id="myVar" name="variable" value="{{ user.username }}">
+                {% else %}
+                검색을 하시면 검색하신 키워드에 맞는 사용자 분석 결과를 열람할 수 있습니다.
+                <input type="hidden" id="myVar" name="variable" value="{{ user_ip }}">
+                {% endif %}
+            </div>
+        -->
+            <!-- #tab1 -->
+            <div id='tab2' class='tab_content'>
+                {% if content %}
+                검색어 '{{ content }}'에 대한 분석결과
+                <input type="hidden" id="searchKeyWord" name="variable" value="{{ content }}">
+                <script>
+                    keyWordAnalyzer()
+                </script>
+                {% else %}
+                키워드 분석 결과는 검색어를 입력하셔야 열람이 가능합니다
+                {% endif %}
+            </div>
+            <!-- #tab2 -->
+        </div>
+        <script>
+            getDataFromURL()
+        </script>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head lang="kr">
+        <meta charset="UTF-8">
+        <title>로그마이닝</title>
+        {% load staticfiles %}
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="{% static "css/searchWindow.css" %}">
+        <link rel="stylesheet" type="text/css" href="{% static "css/d3.css" %}">
+        <link rel="stylesheet" type="text/css" href="{% static "css/d3_head.css" %}">
+        <link rel="stylesheet" type="text/css" href="{% static "css/header.css" %}">
+        <!-- jQuery -->
+        <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+        <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+        <script src="{% static "js/jquery-foggy.js" %}"></script>
+        <script type="text/javascript" src="{% static "js/header.js" %}"></script>
+        <script src="{% static "js/d3.js" %}" charset="utf-8"></script>
+        <script src="{% static "js/d3.v3.js" %}" charset="utf-8"></script>
+        <script src="{% static "js/d3_head.js" %}" charset="utf-8"></script>
+        <script src="{% static "js/d3_draw.js" %}" charset="utf-8"></script>
+    </head>
+    <body>
+        <nav id="mainMenu">
+            <ul>
+                <li><a href="/"><img id='logo' src="{% static "img/soma.png" %}" width='74px' height='54px'>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li> <!-- go to main page -->
+                <li><a href="/">상품검색</a></li>
+                <li><a href="/kibana2/">통계보기</a>
+                <ul>
+                    <li><a href='/kibana2/'>인기검색어</a></li>
+                    <li><a href='/kibana3/'>인기상품</a></li>
+		    <li><a href='/kibana4/'>사용자 분석</a></li>
+                </ul>
+                </li>
+                <li><a href="/analyze/">상품분석</a></li>
+                <div id='searchSection'>
+                    <form action='/user/' method='get' style="display:inline;">
+                        <input id='searchBox' type="text" name="content" placeholder="상품을 검색해보세요!" style="width:250px;"/>
+                        <input type="hidden" name="current" value="1"/>
+                        <input type="hidden" name="searchBox" value="none"/>
+                        <input id='searchButton' type="submit" value="검색"/>
+                    </form>
+                </div>
+                <div id="loginSection">
+                    {% if not user.username %}
+                    <form action="/user/" method="post" style="display:inline;">
+                       <span style="color:white">아이디</span>
+                        <input name="username" type="text" style='border-radius:3px;'/>
+                       <span style="color:white"> 비밀번호</span>
+                        <input name="password" type="password" style='border-radius:3px;'/>
+                        <button id="login" type="submit" class="btn" style="width:75px; height:30px">로그인</button>
+                    </form>
+                    <button id="register" type="button" style='width:75px;height:30px;'>회원가입</button>
+                    {% else %}
+                    {{ user.username }}님 안녕하세요!
+                    <button id="login" onClick="window.open('/user/logout/','_self')" style='border-radius:5px;width:75px;'>로그아웃</button><br>
+                    {% endif %}
+                </div>
+            </ul>
+        </nav>
+        <div id="registrationForm" title="회원가입">
+            약관
+            <div id="contractBox">
+                <iframe id="contractBox" src="{% static "textFiles/contract.html" %}" scrolling="yes"></iframe>
+            </div>
+            <form method="post" action="/register/">
+                <br>
+                <table>
+                    <tr>
+                        <td class="left">아이디</td>
+                        <td class="right"><input type="text" name="username" value="{{ reginfo.username }}" id="username" size="24" /></td>
+                    </tr>
+                    <tr>
+                        <td class="left">비밀번호</td>
+                        <td class="right"><input type="password" name="password1" value="{{ reginfo.password1 }}" size="24"/></td>
+                    </tr>
+                    <tr>
+                        <td class="left">비밀번호확인</td>
+                        <td class="right"><input type="password" name="password2" value="{{ reginfo.password2 }}" size="24"/></td>
+                    </tr>
+                </table>
+                <br>
+                <button type="submit" id="closeRegistrationForm">제출</button>
+            </form>
+            <button id="closeRegistrationForm" onclick="window.location.href='/'">닫기</button>
+        </div>
+        <div id='center'>
+                {% block content %}
+                {% endblock %}
+        </div>
+        <center>
+            <div id='foot'>
+                2014 소프트웨어 마에스트로 5기
+                <table>
+                    <tr>
+                        <td>
+                            <img src="{% static "img/soma.png" %}" width='144px' height='100px'>
+                        </td>
+                        <td>
+                            김진현 안재현 김부성 백대현
+                        </td>
+                        <td>
+                            &nbsp;
+                        </td>
+                        <td>
+                            <img src="{% static "img/buzzni_logo.png" %}" width='164px' height='62px'>
+                        </td>
+                        <td>
+                            (주)버즈니 남상협 대표
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </center>
+    </body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+
+<meta charset="utf-8">
+<style>
+    .arc text {
+        font-family: "Georgia", sans-Serif;
+        font-size : 15px;
+        font-weight : 900;
+        fill: white;
+    }
+    .arc path {
+        /*stroke: gray;*/
+    }
+    .title {
+        font-family: sans-Serif;
+        font-size : 20px;
+        font-weight : 900;
+        fill: Dimgray;
+    }
+    .gender_legend {
+        font-family: sans-Serif;
+        font-size : 20px;
+        font-weight : 900;
+        fill : Dimgray;
+    }
+    .age-legend {
+        font-family: sans-Serif;
+        font-size : 13px;
+        font-weight : 900;
+        fill : Dimgray;
+    }
+</style>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+<script>
+    var width = 380,
+            height = 800,
+            radius = 100;
+
+    var color_gender = d3.scale.ordinal()
+            .range(["#59A8E8", "#FD6D7C"]);
+    var color_age = d3.scale.ordinal()
+            .range(["#8DC655", "#E7679D", "#7A76BF", "#00BEB3"]);
+
+    var arc = d3.svg.arc()
+            .outerRadius(radius)
+            .innerRadius(radius - 55);
+
+    var pie = d3.layout.pie()
+            .sort(null)
+            .value(function(d) { return d.prob; });
+
+    var svg = d3.select("body").append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+    var svg_gender = d3.select("svg")
+            .append("g")
+            .attr("class", "donut_gender")
+            .attr("transform", "translate(" + width / 2 + ", 150)");
+    var svg_age = d3.select("svg")
+            .append("g")
+            .attr("class", "donut_age")
+            .attr("transform", "translate(" + width / 2 + ", 400)");
+
+    var age_data = [];
+    var gender_data = [];
+
+    d3.json('./data/sample.json', function(data) {
+        for (i = 0; i < 2; i++) {
+            gender_data.push(data[i]);
+        }
+        for (i = 2; i < 6; i++) {
+            age_data.push(data[i]);
+        }
+        draw_age(age_data);
+        draw_gender(gender_data);
+    });
+    function draw_gender(data) {
+        var g = svg_gender.selectAll(".arc")
+                .data(pie(data))
+                .enter().append("g")
+                .attr("class", "arc");
+
+        g.append("path")
+                .attr("d", arc)
+                .style("fill", function(d) { return color_gender(d.data.label); });
+
+        g.append("text")
+                .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+                .attr("dy", ".35em")
+                .style("text-anchor", "middle")
+                .text(function(d) { return String(d.data.prob.toFixed(0))+' %'; });
+
+        svg_gender.append("text")
+                .attr("class", "title")
+                .attr("transform", "translate(-20,7)")
+                .text("성별");
+
+        svg_gender.append("image")
+                .attr("xlink:href", "./source/female.png")
+                .attr("width", 60)
+                .attr("height", 60)
+                .attr("transform", "translate(-175,-50)");
+
+        svg_gender.append("text")
+                .attr("class", "gender_legend")
+                .attr("transform", "translate(-165,40)")
+                .text("여성");
+
+        svg_gender.append("image")
+                .attr("xlink:href", "./source/male.png")
+                .attr("width", 60)
+                .attr("height", 60)
+                .attr("transform", "translate(110,-50)");
+
+        svg_gender.append("text")
+                .attr("class", "gender_legend")
+                .attr("transform", "translate(120,40)")
+                .text("남성");
+    }
+    function draw_age(data) {
+        var g = svg_age.selectAll(".arc")
+                .data(pie(data))
+                .enter().append("g")
+                .attr("class", "arc");
+
+        g.append("path")
+                .attr("d", arc)
+                .style("fill", function(d) { return color_age(d.data.label); });
+
+        g.append("text")
+                .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+                .attr("dy", ".35em")
+                .style("text-anchor", "middle")
+                .text(function(d) { return String(d.data.prob.toFixed(0))+' %'; });
+
+        svg_age.append("text")
+                .attr("class", "title")
+                .attr("transform", "translate(-20,7)")
+                .text("연령");
+
+        var pos = [ [0,0], [80,0], [0,20], [80,20] ];
+        var pos_age = d3.scale.ordinal().range(pos);
+        var legend_box = svg_age.append("a").attr("transform", "translate(-55,130)");
+        var legend = legend_box.selectAll(".text")
+                .data(data).enter().append("g")
+                .attr("transform",function(d) {
+                    return "translate(" + pos_age(d.label)[0] + "," + pos_age(d.label)[1] + ")";
+                });
+
+        legend.append("text")
+                .attr("class", "age-legend")
+                .attr("transform", "translate(15,0)")
+                .text(function(d) {return d.label; });
+
+        legend.append("circle")
+                .attr("fill", function(d) { return color_age(d.label); })
+                .attr("r", 7)
+                .attr("transform","translate(0,-4)");
+    }
+</script>
+
+</body>
+</html>

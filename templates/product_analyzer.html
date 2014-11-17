@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% extends "header.html" %}
+{% block content %}
+<br>
+<br>
+<h1>쇼핑몰 상품분석기</h1>
+<form action='.' method='get'>
+    <input type='text' name='title' size='40' value='' placeholder='상품 제목을 입력해주세요'/ style='height:18px;text-align:center;'>
+    <input class='button' type='submit' value='체크' />
+</form>
+{% if input_title %}
+'{{ input_title }}'에 대한 분석결과<br>
+<br>
+<h3>카테고리 분석</h3>
+대분류: {{ result_data.ncate1 }}<br>
+중분류: {{ result_data.ncate2 }}<br>
+소분류: {{ result_data.ncate3 }}<br>
+<h3>검색 소비층 분석</h3>
+{{ result_data.preferences }}
+{% else %}
+카테고리와 사용자 세그먼트를 알고 싶은 상품 제목을 검색해주세요
+{% endif %}
+{% endblock %}

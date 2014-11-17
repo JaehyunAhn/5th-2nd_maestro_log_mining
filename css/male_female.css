@@ -1,0 +1,19 @@
+rect.maleBar {
+    fill: steelblue;
+}
+rect.femaleBar {
+    fill: pink;
+}
+.xaxis {
+    stroke: black;
+}
+text.txtValue {
+    font-size: 1em;
+    font-family: "Times New Roman", Times, serif;
+}
+text.genderTitle {
+    font-size: 2em;
+}
+line.divideLine {
+    stroke: black;
+}

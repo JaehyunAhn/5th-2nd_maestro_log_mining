@@ -1,0 +1,53 @@
+#top {
+    width:880px;
+    padding-top:60px;
+    font-size: 15px;
+    border-right:1px solid rgb(230,230,230);
+}
+
+#top form {
+    float:right;
+    margin-right:3px;
+}
+
+#top form input {
+    height:25px;
+    background-color:white;
+    border-radius:5px;
+}
+#top form input:hover {
+    background-color: orange;
+    color:white;
+    border:1px solid orange;
+}
+
+#itemResult {
+    width:880px;
+    border-right:1px solid rgb(230,230,230);
+    float:left;
+}
+#itemResult table {
+    border-collapse:collapse;
+    width:875px;
+}
+#itemResult table tr {
+    border-bottom:1px solid rgb(200,200,200);
+}
+#itemResult table tr:hover{
+    border:2px solid rgb(53,196,255);
+}
+#itemResult table tr td {
+    font-size:12px;
+}
+#itemResult table tr td a {
+    color: rgb(73,73,73);
+    text-decoration:none;
+    font-size:13px;
+}
+#itemResult table tr td a:hover {
+    color: rgb(53,166,235);
+}
+#D3Result {
+    width:395px;
+    float:right;
+}

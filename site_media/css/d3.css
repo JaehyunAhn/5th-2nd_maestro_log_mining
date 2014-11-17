@@ -1,0 +1,60 @@
+#D3Result {
+    margin-top:-31px;
+}
+
+line.g-split {
+    stroke: gray;
+}
+circle {
+}
+text.txtGender {
+    font: 4em "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+}
+text.txtPercent {
+    font: 1.3em "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+}
+circle.male {
+    fill: skyblue;
+    opacity: 0.5;
+}
+circle.female {
+    fill: lightpink;
+    opacity: 0.5;
+}
+rect.bar {
+    fill: gold;
+}
+text.txtLabel {
+    font: 1.3em "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+}
+text.txtValue {
+    font: 1em "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+}
+/* Keyword Analyzer */
+.arc text {
+    font-family: "Georgia", sans-Serif;
+    font-size : 12px;
+    font-weight : 900;
+    fill: white;
+}
+.arc path {
+    /*stroke: gray;*/
+}
+.title {
+    font-family: sans-Serif;
+    font-size : 15px;
+    font-weight : 900;
+    fill: Dimgray;
+}
+.gender_legend {
+    font-family: sans-Serif;
+    font-size : 15px;
+    font-weight : 900;
+    fill : Dimgray;
+}
+.age-legend {
+    font-family: sans-Serif;
+    font-size : 13px;
+    font-weight : 900;
+    fill : Dimgray;
+}

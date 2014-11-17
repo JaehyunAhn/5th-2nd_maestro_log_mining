@@ -1,0 +1,32 @@
+line.g-split {
+    stroke: gray;
+}
+circle {
+}
+text.txtGender {
+    font-size: 3em;
+    font-family: "Times New Roman", Times, serif;
+}
+text.txtPercent {
+    font-size: 1em;
+    font-family: "Times New Roman", Times, serif;
+}
+circle.male {
+    fill: skyblue;
+    opacity: 0.5;
+}
+circle.female {
+    fill: lightpink;
+    opacity: 0.5;
+}
+rect.bar {
+    fill: gold;
+}
+text.txtLabel {
+    font-size: 1em;
+    font-family: "Times New Roman", Times, serif;
+}
+text.txtValue {
+    font-size: 0.8em;
+    font-family: "Times New Roman", Times, sans-serifserif;
+}

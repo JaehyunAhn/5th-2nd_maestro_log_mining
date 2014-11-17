@@ -1,0 +1,17 @@
+<html>
+    <title>관리자 페이지</title>
+    <head>
+        {% load staticfiles %}
+        <link rel="stylesheet" type="text/css" href="{% static "css/commonSearchWindow.css" %}">
+        <link rel="stylesheet" type="text/css" href="{% static "css/bootstrap.css" %}">
+        <link rel="stylesheet" type="text/css" href="{% static "css/bootstrap-theme.css" %}">
+        <script type="text/javascript" src="{% static "js/bootstrap.js" %}"></script>
+    </head>
+    <body>
+        <center>
+            선택:
+            <button class="button" onClick="window.open('/guessing/','_self')">사용자 추정모드</button>
+            <button class="button" onClick="window.open('/user/','_self')">유저별 취향검색</button>
+        </center>
+    </body>
+</html>

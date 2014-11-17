@@ -1,0 +1,13 @@
+<html>
+<title>회원가입</title>
+<head></head>
+<body>
+<form action="." method="post">{% csrf_token %}
+  아이디:<input id="inputBox" type="text" name="username" value="" size="10"/><br>
+  비밀번호 입력:<input id="inputBox" type="password" name="password1" value="" size="10"/><br>
+  비밀번호 확인:<input id="inputBox" type="password" name="password2" value="" size="10"/><br>
+  <input id="boxButton" type="submit" value="가입" />
+</form>
+{{ state }} {{ button }}
+</body>
+</html>
